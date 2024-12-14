@@ -1,0 +1,79 @@
+
+body{
+    margin: 0;
+}
+.play-container {
+    text-align: center;
+    display: flex;
+    
+  }
+
+  .l h2{
+    margin-left: 0.5em;
+  }
+
+  .r,.l{
+  width:45vw;
+
+    
+    
+  }
+  .r h3{
+
+    margin-left: 50%;
+    margin-right: 33%;
+
+
+  }
+  .l h3{
+    margin-left: 36%;
+    margin-right: 50%;
+
+  }
+
+ 
+  .r{
+    background-color: rebeccapurple;
+  }
+  .l{
+    background-color: pink;
+  }
+  .head{
+  display: flex;
+  height: 4em;
+  }
+  .score {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  .red{
+    color: white;
+    background-color: #ff0000;
+  }
+  .team {
+    text-align: center;
+    border: 2px solid #333;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .buttons button {
+    margin: 1em;
+    padding: 3em;
+    border-radius: 45px;
+  }
+  
+  .controls button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .controls {
+    position: absolute;
+    top: 10em;
+    left:40%;
+  }
+  
